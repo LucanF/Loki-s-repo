@@ -6,66 +6,74 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Loki Portfolio</title>
   <link rel="stylesheet" href="style.css">
-<style> 
-h1{
-  font-family: 'Honk', system-ui;
-   background-image: url(../Loki-s-repo/assets/images/peaceful-road-facebook-cover.jpg);
-   background-blend-mode: soft-light;
-  
-}
-
-</style>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
-
+  <style> 
+    h1 {
+      font-family: 'Honk', system-ui;
+      background-image: url(../Loki-s-repo/assets/images/peaceful-road-facebook-cover.jpg);
+      background-blend-mode: soft-light;
+      text-align: center;
+      padding: 20px;
+    }
+    .button-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .button-container .button {
+      margin: 10px;
+    }
+    .project {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .project img {
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
   <h1>Lucan Florin (Loki) Portfolio</h1>
 
-  <h2>
-    <button class="contact-button">
-      <a href="./public/homepage/public/contact.html">Contact Me</a>
-    </button>
-    <button class="ceo-button">
-      <a href="https://www.instagram.com/valutheuser/">CEO of Loki</a>
-    </button>
-    <button class="media-button">
-      <a href="https://www.linkedin.com/in/lucan-florin-5a9817151/">Linked Profile</a>
-    </button>
-  </h2>
+  <div class="button-container">
+    <button class="button contact-button"><a href="./public/homepage/public/contact.html">Contact Me</a></button>
+    <button class="button ceo-button"><a href="https://www.instagram.com/valutheuser/">CEO of Loki</a></button>
+    <button class="button media-button"><a href="https://www.linkedin.com/in/lucan-florin-5a9817151/">Linked Profile</a></button>
+  </div>
 
   <hr>
 
+  <div class="project div_movie_ranking_project"> 
+    <h3><a href="./public/Movie Ranking.html">Movie Ranking Project</a></h3>
+    <a href="https://www.youtube.com/watch?v=B0yIrQHvH5U">
+      <img class="Movie-Ranking-Project" src="./assets/images/movie.png" height="300px" width="300px">
+    </a>
+  </div>
 
-<div class="div_movie_ranking_project"> 
-  <h3><a href="./public/Movie Ranking.html">Movie Ranking Project</a></h3>
-  <br>
-  <a href="https://www.youtube.com/watch?v=B0yIrQHvH5U">
-    <img class="Movie-Ranking-Project" src="./assets/images/movie.png" height="300px" width="300px">
-  </a>
+  <div class="project">
+    <h3><a href="./public/Birthday invite.html">Birthday Project</a></h3>
+    <a href="https://www.youtube.com/watch?v=PTvTLvkiAbI">
+      <img class="Birthday-Project"src="./assets/images/birthday.png" height="300px" width="300px">
+    </a>
+  </div>
 
- </div>
+  <div class="project">
+    <h3><a href="./public/homepage/My first homepage.html">My First Home Page</a></h3>
+    <a href="https://www.youtube.com/watch?v=06Kg6XeMhQU">
+      <img src="./assets/images/Untitled.png" height="300px" width="300px">
+    </a>
+  </div>
 
-  <h3><a href="./public/Birthday invite.html">Birthday Project</a></h3>
-  <br>
-  <a href="https://www.youtube.com/watch?v=PTvTLvkiAbI">
-    <img class="Birthday-Project"src="./assets/images/birthday.png" height="300px" width="300px">
-  </a>
-
-  <h3><a href="./public/homepage/My first homepage.html">My First Home Page</a></h3>
-  <br>
-  <a href="https://www.youtube.com/watch?v=06Kg6XeMhQU">
-    <img src="./assets/images/Untitled.png" height="300px" width="300px">
-  </a>
-
-  <h3><a href="./cv_web_page.html">My Work Experience</a></h3>
-  <br>
-  <a href="https://www.youtube.com/watch?v=QoPioWYAhcY">
-    <img src="assets/images/cv.png" height="300px" width="300px">
-  </a>
+  <div class="project">
+    <h3><a href="./cv_web_page.html">My Work Experience</a></h3>
+    <a href="https://www.youtube.com/watch?v=QoPioWYAhcY">
+      <img src="assets/images/cv.png" height="300px" width="300px">
+    </a>
+  </div>
 
 </body>
 
