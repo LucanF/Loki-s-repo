@@ -44,24 +44,3 @@ body {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
 }
-
-input, select, textarea, button {
-  display: block;
-  margin: 10px auto;
-  padding: 10px;
-  width: 80%;
-  max-width: 400px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
-
-button {
-  background-color: #ff6347;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #d9534f;
-}
