@@ -1,25 +1,63 @@
-.ceo-button {
-   width: 100x;
-   border-radius: 20px;
-   border-style: double;
-}
-
-
-
 body {
-    background-image: url(../Loki-s-repo/assets/images/background_photo.jpg);
+    background-image: url('./assets/images/background_photo.jpg');
     background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
 }
 
+.ceo-button {
+   border-radius: 25px;
+   border: none;
+   padding: 10px 20px;
+   background-color: #0077b3;
+   color: white;
+   font-size: 16px;
+}
 
+.ceo-button:hover {
+   background-color: #005f8a;
+}
 
-  
-.Birthday-Project {
-/* Your styles here */
-border: 2px solid #ccc;
-border-radius: 10px;
-margin: 5px;
-/* Add more styles as needed */
+.button-container {
+    background: linear-gradient(to bottom, #66c2ff, #0077b3);
+    padding: 20px;
+}
 
-  }
+.project {
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: white;
+    max-width: 80%;
+    transition: transform 0.2s;
+}
 
+.project:hover {
+    transform: translateY(-10px);
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #0077b3;
+    color: white;
+    text-decoration: none;
+}
+
+a.button:hover {
+    background-color: #005f8a;
+}
