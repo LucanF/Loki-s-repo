@@ -85,7 +85,7 @@ video {
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
 
-.button_contact:hover, .button_ceo:hover, .button_linkdin:hover {
+.button_contact:hover, .button_ceo:hover, .button_linkdin:hover, .info {
     background-color: #0077b3;
     color: white;
     transform: scale(1.05);

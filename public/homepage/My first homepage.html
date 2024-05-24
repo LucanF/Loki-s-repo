@@ -1,9 +1,81 @@
-<h1>Welcome to My Website!</h1>
-<p> To view the goal, right-click on the solution.html file and go to Show Preview</p>
-<a href="./public/about.html"><img src="./assets/images/cat.png" alt="cat"/> </a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucan Florin's Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        h1 {
+            color: #ff5733;
+        }
+        p {
+            font-size: 18px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .intro {
+            margin: 20px;
+        }
+        .image-container {
+            display: inline-block;
+            margin: 20px;
+        }
+        .image-container img {
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        hr {
+            margin: 40px 0;
+            border: 0;
+            height: 1px;
+            background: #ccc;
+        }
+    </style>
+</head>
+<body>
 
-<hr/>
-<!-- Add a link to your contact me page here -->
-<a href="./public/contact.html"> Contact Loki </a>
-</br> 
-<a href="https://www.youtube.com/shorts/y-FIqLUvtaE"><img src="./fast-cat-cat-excited.gif" height="300px" width="300px"> </a>
+    <h1>Welcome to My Website!</h1>
+    <p class="intro">This is my first attempt at a basic home page with just an intro about me.</p>
+    <a href="./public/about.html">
+        <img src="./assets/images/cat.png" alt="cat" width="300px" height="300px"/>
+    </a>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! I am Lucan Florin, a seasoned Game Tester and Software Tester QA with over 9 years of experience.</p>
+        <p>I have contributed my expertise to Verified Tech SRL as a Software Tester QA.</p>
+        <p>I hold a BAC diploma from Liceul Tehnologic Iordache Golescu, and I am skilled in various platforms including PC, PS4, PS5, Xbox1, and mobile.</p>
+        <p>Some notable projects I have worked on include:</p>
+        <ul>
+            <li>Rainbow Six Siege</li>
+            <li>Tom Clancy's The Division 2</li>
+            <li>Tom Clancy's Ghost Recon Breakpoint</li>
+            <li>Far Cry 5</li>
+        </ul>
+    </section>
+
+</body>
+
+
+
+<footer>
+
+<a href="./public/contact.html">Contact Loki</a>
+<br/>
+<a href="https://www.youtube.com/shorts/y-FIqLUvtaE">
+    <img src="./fast-cat-cat-excited.gif" alt="Excited Cat" height="300px" width="300px"/>
+</a>
+</footer>
+
+</html>
