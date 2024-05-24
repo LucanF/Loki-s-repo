@@ -1,0 +1,54 @@
+h1 {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('./assets/images/cover_photo_portofoli.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+    margin: 0;
+}
+
+.button-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button-container .button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #0077b3;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.button-container .button:hover {
+    background-color: #005f8a;
+}
+
+.project {
+    text-align: center;
+    margin: 30px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.2s;
+    margin-top: 50px;
+    width: 150px;
+    display: inline-block;
+}
+
+.project img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
