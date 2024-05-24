@@ -21,11 +21,8 @@ Hello! I am Lucan Florin, also known as Loki. I have over 9 years of experience 
 ## Technologies Used
 - **HTML5 & CSS3**: For structuring and styling the website.
 - **JavaScript**: For interactive features.
-- **Python**: For scripting and automation.
 - **Git**: For version control.
-- **Selenium**: For automated testing.
 - **Jira**: For project management and issue tracking.
-- **Unity**: For basic game development.
 - **VS Code**: As the primary code editor.
 
 ## Projects
@@ -76,8 +73,7 @@ To set up the project locally, follow these steps:
 
 ## Contact
 For any inquiries or feedback, please feel free to reach out to me:
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
-- **Instagram**: [@valutheuser](https://www.instagram.com/valutheuser/)
+- **Email**: [your.email@example.com](mailto:lucan.florin,marian@gmail.com)
 - **LinkedIn**: [Lucan Florin](https://www.linkedin.com/in/lucan-florin-5a9817151/)
 
 Thank you for visiting my portfolio!
