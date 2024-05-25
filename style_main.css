@@ -1,104 +1,90 @@
 body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    font-family: Arial, sans-serif;
-    color: #fff;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  color: #fff;
 }
 
 .video-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
 }
-
-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .content {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    padding: 20px;
-    box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .project-container {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .project {
-    background: rgba(255, 255, 255, 0.8);
-    color: #000;
-    margin: 10px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    max-width: 300px;
-    min-width: 200px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 300px;
+  min-width: 200px;
 }
-
 .project img {
-    max-width: 100%;
-    border-radius: 8px;
+  max-width: 100%;
+  border-radius: 8px;
 }
-
-.project-title {
-    font-size: 1.2em;
-    margin: 10px 0;
+.project .project-title {
+  font-size: 1.2em;
+  margin: 10px 0;
 }
 
 .button-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-    gap: 10px;
-}
-
-.button_contact, .button_ceo, .button_linkdin {
-    background: white;
-    border: 2px solid #0077b3;
-    border-radius: 25px;
-    color: #0077b3;
-    padding: 10px 20px;
-    font-size: 16px;
-    text-decoration: none;
-    margin: 10px;
-    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
 }
 
 .button_contact, .button_ceo, .button_linkdin, .button_info {
-    background: white;
-    border: 2px solid #0077b3;
-    border-radius: 25px;
-    color: #0077b3;
-    padding: 10px 20px;
-    font-size: 16px;
-    text-decoration: none;
-    margin: 10px 0;
-    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  background: white;
+  border: 2px solid #0077b3;
+  border-radius: 25px;
+  color: #0077b3;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 10px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+.button_contact:hover, .button_ceo:hover, .button_linkdin:hover, .button_info:hover {
+  background-color: #0077b3;
+  color: white;
+  transform: scale(1.05);
 }
 
-.button_contact:hover, .button_ceo:hover, .button_linkdin:hover, .button_info:hover {
-    background-color: #0077b3;
-    color: white;
-    transform: scale(1.05);
-}
+/*# sourceMappingURL=style_main.css.map */
