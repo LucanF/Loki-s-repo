@@ -17,6 +17,7 @@ body, html {
   z-index: -1;
   overflow: hidden;
 }
+
 .video-background video {
   width: 100%;
   height: 100%;
@@ -97,23 +98,6 @@ body, html {
   color: var(--primary-color);
 }
 
-.button_contact, .button_ceo, .button_linkdin, .button_info {
-  background: white;
-  border: 2px solid #0077b3;
-  border-radius: 25px;
-  color: #0077b3;
-  padding: 10px 20px;
-  font-size: 16px;
-  text-decoration: none;
-  margin: 10px;
-  transition: background-color 0.3s, color 0.3s, transform 0.3s;
-}
-.button_contact:hover, .button_ceo:hover, .button_linkdin:hover, .button_info:hover {
-  background-color: #0077b3;
-  color: white;
-  transform: scale(1.05);
-}
-
 .header-title {
   position: absolute;
   top: 20px;
@@ -123,4 +107,46 @@ body, html {
   z-index: 1;
   color: #fff;
 }
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 60px; /* Adjust based on your needs */
+  right: 25px; /* Adjust based on your needs */
+}
+
+.button-container button {
+  font-size: 36px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px; /* Adjust based on your needs */
+}
+
+.nav-links a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #575757;
+}
+
+.button-container.open .nav-links {
+  display: flex;
+}
+
 /*# sourceMappingURL=style_main.css.map */

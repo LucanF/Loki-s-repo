@@ -18,11 +18,14 @@
     </div>
     <div class="content">
         <h1 class="header-title">Lucan Florin (Loki) Portfolio</h1>
-        <div class="button-container">
-            <a href="./public/homepage/public/contact.html" class="button_contact">Contact Me</a>
-            <a href="https://www.instagram.com/valutheuser/" class="button_ceo">CEO of Loki</a>
-            <a href="https://www.linkedin.com/in/lucan-florin-5a9817151/" class="button_linkdin">LinkedIn Profile</a>
-            <a href="./public/homepage/public/about.html" class="button_info">Info</a>
+        <div class="button-container" id="SideNavBar">
+            <button onclick="toggleNav()">☰</button>
+            <div id="navLinks" class="nav-links">
+                <a href="#contact">Contact Me</a>
+                <a href="#ceo">CEO of Loki</a>
+                <a href="#linkedin">LinkedIn Profile</a>
+                <a href="#info">Info</a>
+            </div>
         </div>
         <div class="project-container">
             <div class="project">
@@ -47,5 +50,6 @@
             </div>
         </div>
     </div>
+    <script src="main_js.js"></script>
 </body>
 </html>
