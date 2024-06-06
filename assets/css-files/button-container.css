@@ -1,0 +1,16 @@
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 60px; /* Adjust based on your needs */
+  right: 25px; /* Adjust based on your needs */
+}
+.button-container button {
+  font-size: 36px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
