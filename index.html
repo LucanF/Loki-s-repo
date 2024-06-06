@@ -43,17 +43,26 @@
         .submit-button:hover {
             background-color: #45a049;
         }
+
+        h4, h5 {
+            text-align: center;
+            font-style: italic;
+            
+        }
     </style>
     <script src="./login.js"></script>
 </head>
 <body>
     <div class="container">
         <h2>Login</h2>
+        
         <form onsubmit="return validateLogin()">
             <input type="text" id="username" name="username" class="input-field" placeholder="Username" required aria-label="Username" />
             <input type="password" id="password" name="password" class="input-field" placeholder="Password" required aria-label="Password" />
             <input type="submit" value="Login" class="submit-button" />
         </form>
+        <h4> Don't have an account yet ?</h4>
+        <h5> Create one <a href="TBT"> here</a>! </h5>
     </div>
 </body>
 </html>
