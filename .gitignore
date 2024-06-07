@@ -4,4 +4,4 @@ dist
 **/*.css
 npm-debug.log
 # Ignore parallax examples
-parallax/examples/
+
