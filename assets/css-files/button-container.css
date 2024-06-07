@@ -1,16 +1,9 @@
-
 .button-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: absolute;
-  top: 90px; /* Adjust based on your needs */
-  right: 25px; /* Adjust based on your needs */
-}
-#SideNavBar button {
-  font-size: 36px;
-  background-color: transparent;
-  border: none;
-  color: white;
+  top: 30%; /* Adjust this value to move the button vertically */
+  right: 20px; /* Adjust this value to move the button horizontally */
+  transform: translateY(-50%); /* This will center the button vertically */
+  /* Additional styling for the button */
+  padding: 10px;
   cursor: pointer;
 }

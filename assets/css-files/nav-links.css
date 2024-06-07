@@ -3,6 +3,9 @@
   flex-direction: column;
   align-items: center;
   margin-top: 10px; /* Adjust based on your needs */
+  position: absolute; /* Position absolutely relative to the button */
+  right: 50%; /* Center align relative to the button */
+  transform: translateX(50%); /* Adjust positioning to center */
 }
 
 .nav-links a {
@@ -12,6 +15,7 @@
   color: white;
   display: block;
   transition: 0.3s;
+
 }
 
 .nav-links a:hover {
