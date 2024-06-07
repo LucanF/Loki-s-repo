@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   position: absolute;
-  top: 60px; /* Adjust based on your needs */
+  top: 90px; /* Adjust based on your needs */
   right: 25px; /* Adjust based on your needs */
 }
 .button-container button {

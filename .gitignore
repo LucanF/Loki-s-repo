@@ -1,0 +1,7 @@
+*.DS_Store
+node_modules
+dist
+**/*.css
+npm-debug.log
+# Ignore parallax examples
+parallax/examples/
